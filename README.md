@@ -43,10 +43,7 @@ The backend is developed using `Express` and `Sequelize`, which connects to a My
 
 You can watch a demo of the chatbot application below:
 
-<video width="600" controls>
-  <source src="./Frontend/public/Demo Video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the demo video](./Frontend/public/Thumbnail.png)](https://drive.google.com/file/d/1T6GdR-zBOjbVQuyLzqxUgqol_HwdMChI/view?usp=drive_link)
 
 Below is the chat bot database of the above demo
 
