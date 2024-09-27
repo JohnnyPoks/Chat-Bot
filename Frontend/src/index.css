@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.markdown {
+  line-height: 1.6;
+}
+
+.markdown h1,
+.markdown h2 {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.markdown ul {
+  margin-left: 20px;
+}
+
+.markdown p {
+  margin: 0.5rem 0;
+}
+
+.markdown h3 {
+  font-size: 1.5rem; /* Title font size */
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.markdown h4 {
+  font-size: 1.2rem; /* Subtitle font size */
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.markdown ul {
+  list-style-type: disc; /* Bullet points */
+  margin-left: 20px;
+}
+
+.markdown li {
+  margin: 0.5rem 0; /* Space between list items */
+}
+
+.markdown strong {
+  font-weight: bold; /* Emphasized text */
+}
+
+.markdown em {
+  font-style: italic; /* Italics for emphasis */
+}
